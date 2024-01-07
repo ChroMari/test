@@ -1,6 +1,5 @@
 [build]
     command = "pip install -r requirements.txt && uvicorn main:app --host 0.0.0.0 --port $PORT"
-    publish = "path_to_your_public_folder"
 
 [dev]
     command = "uvicorn main:app --reload --port 8000"
