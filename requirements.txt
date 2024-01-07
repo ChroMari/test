@@ -1,4 +1,3 @@
-fastapi
-uvicorn
-datetime
-mysql-connector-python
+fastapi==0.106.0
+uvicorn==0.25.0
+mysql-connector-python==8.2.0
