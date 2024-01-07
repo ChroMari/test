@@ -1,9 +1,9 @@
 from fastapi import FastAPI
 from datetime import datetime
 
-from .transport_bd.CONSTANTS import bd_connect_root
-from .transport_bd.select_all_table import select_all_table
-from .transport_bd.write_sql_information import write_sql_information
+from transport_bd.CONSTANTS import bd_connect_root
+from transport_bd.select_all_table import select_all_table
+from transport_bd.write_sql_information import write_sql_information
 
 app = FastAPI()
 
