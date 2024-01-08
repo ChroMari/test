@@ -1,13 +1,14 @@
-# from getpass import getpass
+HOST_BD = "localhost" 
+NAME_BD = "stock" 
+PASSWORD_BD = "01289" 
+USER_BD = "root" 
+TABLE_NAME = "transport"
 
 def bd_connect_root():
-    user_bd =  "root" # input("Введите пользователя: ")
-    password_db = "01289" # getpass("Введите пароль для подключения: ")
-
     return {
-        "host_bd": "localhost",
-        "name_db": "stock",
-        "password_db": password_db,
-        "user_bd": user_bd,
-        "table_name": "transport"
+        "host_bd": HOST_BD,
+        "name_db": NAME_BD,
+        "password_db": PASSWORD_BD,
+        "user_bd": USER_BD,
+        "table_name": TABLE_NAME
     }

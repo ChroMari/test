@@ -1,5 +1,4 @@
 from mysql.connector import connect, Error
-
 def write_sql_information(bd_connect, uid, owner, now_data):
     INSERT_QUERY = 'insert into ' + bd_connect["table_name"] + '(uid, owner, now_data) values(%s, %s, %s)'
     
